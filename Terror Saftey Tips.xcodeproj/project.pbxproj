@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84DAABEF21DDEED70014BD04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAABEE21DDEED70014BD04 /* AppDelegate.swift */; };
+		84DAABF121DDEED70014BD04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAABF021DDEED70014BD04 /* ViewController.swift */; };
+		84DAABF421DDEED70014BD04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DAABF221DDEED70014BD04 /* Main.storyboard */; };
+		84DAABF621DDEEDF0014BD04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DAABF521DDEEDF0014BD04 /* Assets.xcassets */; };
+		84DAABF921DDEEDF0014BD04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DAABF721DDEEDF0014BD04 /* LaunchScreen.storyboard */; };
+		84DAAC0421DDEEDF0014BD04 /* Terror_Saftey_TipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAAC0321DDEEDF0014BD04 /* Terror_Saftey_TipsTests.swift */; };
+		84DAAC0F21DDEEDF0014BD04 /* Terror_Saftey_TipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAAC0E21DDEEDF0014BD04 /* Terror_Saftey_TipsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84DAAC0021DDEEDF0014BD04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DAABE321DDEED60014BD04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DAABEA21DDEED70014BD04;
+			remoteInfo = "Terror Saftey Tips";
+		};
+		84DAAC0B21DDEEDF0014BD04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DAABE321DDEED60014BD04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DAABEA21DDEED70014BD04;
+			remoteInfo = "Terror Saftey Tips";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84DAABEB21DDEED70014BD04 /* Terror Saftey Tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Terror Saftey Tips.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DAABEE21DDEED70014BD04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84DAABF021DDEED70014BD04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84DAABF321DDEED70014BD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84DAABF521DDEEDF0014BD04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84DAABF821DDEEDF0014BD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84DAABFA21DDEEDF0014BD04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DAABFF21DDEEDF0014BD04 /* Terror Saftey TipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Terror Saftey TipsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DAAC0321DDEEDF0014BD04 /* Terror_Saftey_TipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terror_Saftey_TipsTests.swift; sourceTree = "<group>"; };
+		84DAAC0521DDEEDF0014BD04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DAAC0A21DDEEDF0014BD04 /* Terror Saftey TipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Terror Saftey TipsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DAAC0E21DDEEDF0014BD04 /* Terror_Saftey_TipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terror_Saftey_TipsUITests.swift; sourceTree = "<group>"; };
+		84DAAC1021DDEEDF0014BD04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84DAABE821DDEED70014BD04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DAABFC21DDEEDF0014BD04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DAAC0721DDEEDF0014BD04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84DAABE221DDEED60014BD04 = {
+			isa = PBXGroup;
+			children = (
+				84DAABED21DDEED70014BD04 /* Terror Saftey Tips */,
+				84DAAC0221DDEEDF0014BD04 /* Terror Saftey TipsTests */,
+				84DAAC0D21DDEEDF0014BD04 /* Terror Saftey TipsUITests */,
+				84DAABEC21DDEED70014BD04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84DAABEC21DDEED70014BD04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DAABEB21DDEED70014BD04 /* Terror Saftey Tips.app */,
+				84DAABFF21DDEEDF0014BD04 /* Terror Saftey TipsTests.xctest */,
+				84DAAC0A21DDEEDF0014BD04 /* Terror Saftey TipsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DAABED21DDEED70014BD04 /* Terror Saftey Tips */ = {
+			isa = PBXGroup;
+			children = (
+				84DAABEE21DDEED70014BD04 /* AppDelegate.swift */,
+				84DAABF021DDEED70014BD04 /* ViewController.swift */,
+				84DAABF221DDEED70014BD04 /* Main.storyboard */,
+				84DAABF521DDEEDF0014BD04 /* Assets.xcassets */,
+				84DAABF721DDEEDF0014BD04 /* LaunchScreen.storyboard */,
+				84DAABFA21DDEEDF0014BD04 /* Info.plist */,
+			);
+			path = "Terror Saftey Tips";
+			sourceTree = "<group>";
+		};
+		84DAAC0221DDEEDF0014BD04 /* Terror Saftey TipsTests */ = {
+			isa = PBXGroup;
+			children = (
+				84DAAC0321DDEEDF0014BD04 /* Terror_Saftey_TipsTests.swift */,
+				84DAAC0521DDEEDF0014BD04 /* Info.plist */,
+			);
+			path = "Terror Saftey TipsTests";
+			sourceTree = "<group>";
+		};
+		84DAAC0D21DDEEDF0014BD04 /* Terror Saftey TipsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84DAAC0E21DDEEDF0014BD04 /* Terror_Saftey_TipsUITests.swift */,
+				84DAAC1021DDEEDF0014BD04 /* Info.plist */,
+			);
+			path = "Terror Saftey TipsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84DAABEA21DDEED70014BD04 /* Terror Saftey Tips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DAAC1321DDEEDF0014BD04 /* Build configuration list for PBXNativeTarget "Terror Saftey Tips" */;
+			buildPhases = (
+				84DAABE721DDEED70014BD04 /* Sources */,
+				84DAABE821DDEED70014BD04 /* Frameworks */,
+				84DAABE921DDEED70014BD04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Terror Saftey Tips";
+			productName = "Terror Saftey Tips";
+			productReference = 84DAABEB21DDEED70014BD04 /* Terror Saftey Tips.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84DAABFE21DDEEDF0014BD04 /* Terror Saftey TipsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DAAC1621DDEEDF0014BD04 /* Build configuration list for PBXNativeTarget "Terror Saftey TipsTests" */;
+			buildPhases = (
+				84DAABFB21DDEEDF0014BD04 /* Sources */,
+				84DAABFC21DDEEDF0014BD04 /* Frameworks */,
+				84DAABFD21DDEEDF0014BD04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DAAC0121DDEEDF0014BD04 /* PBXTargetDependency */,
+			);
+			name = "Terror Saftey TipsTests";
+			productName = "Terror Saftey TipsTests";
+			productReference = 84DAABFF21DDEEDF0014BD04 /* Terror Saftey TipsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84DAAC0921DDEEDF0014BD04 /* Terror Saftey TipsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DAAC1921DDEEDF0014BD04 /* Build configuration list for PBXNativeTarget "Terror Saftey TipsUITests" */;
+			buildPhases = (
+				84DAAC0621DDEEDF0014BD04 /* Sources */,
+				84DAAC0721DDEEDF0014BD04 /* Frameworks */,
+				84DAAC0821DDEEDF0014BD04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DAAC0C21DDEEDF0014BD04 /* PBXTargetDependency */,
+			);
+			name = "Terror Saftey TipsUITests";
+			productName = "Terror Saftey TipsUITests";
+			productReference = 84DAAC0A21DDEEDF0014BD04 /* Terror Saftey TipsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84DAABE321DDEED60014BD04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Noice;
+				TargetAttributes = {
+					84DAABEA21DDEED70014BD04 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					84DAABFE21DDEEDF0014BD04 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 84DAABEA21DDEED70014BD04;
+					};
+					84DAAC0921DDEEDF0014BD04 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 84DAABEA21DDEED70014BD04;
+					};
+				};
+			};
+			buildConfigurationList = 84DAABE621DDEED60014BD04 /* Build configuration list for PBXProject "Terror Saftey Tips" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84DAABE221DDEED60014BD04;
+			productRefGroup = 84DAABEC21DDEED70014BD04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84DAABEA21DDEED70014BD04 /* Terror Saftey Tips */,
+				84DAABFE21DDEEDF0014BD04 /* Terror Saftey TipsTests */,
+				84DAAC0921DDEEDF0014BD04 /* Terror Saftey TipsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84DAABE921DDEED70014BD04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DAABF921DDEEDF0014BD04 /* LaunchScreen.storyboard in Resources */,
+				84DAABF621DDEEDF0014BD04 /* Assets.xcassets in Resources */,
+				84DAABF421DDEED70014BD04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DAABFD21DDEEDF0014BD04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DAAC0821DDEEDF0014BD04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84DAABE721DDEED70014BD04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DAABF121DDEED70014BD04 /* ViewController.swift in Sources */,
+				84DAABEF21DDEED70014BD04 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DAABFB21DDEEDF0014BD04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DAAC0421DDEEDF0014BD04 /* Terror_Saftey_TipsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DAAC0621DDEEDF0014BD04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DAAC0F21DDEEDF0014BD04 /* Terror_Saftey_TipsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84DAAC0121DDEEDF0014BD04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DAABEA21DDEED70014BD04 /* Terror Saftey Tips */;
+			targetProxy = 84DAAC0021DDEEDF0014BD04 /* PBXContainerItemProxy */;
+		};
+		84DAAC0C21DDEEDF0014BD04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DAABEA21DDEED70014BD04 /* Terror Saftey Tips */;
+			targetProxy = 84DAAC0B21DDEEDF0014BD04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84DAABF221DDEED70014BD04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DAABF321DDEED70014BD04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84DAABF721DDEEDF0014BD04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DAABF821DDEEDF0014BD04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84DAAC1121DDEEDF0014BD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84DAAC1221DDEEDF0014BD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84DAAC1421DDEEDF0014BD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Terror Saftey Tips/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Noice.org.Terror-Saftey-Tips";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84DAAC1521DDEEDF0014BD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Terror Saftey Tips/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Noice.org.Terror-Saftey-Tips";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84DAAC1721DDEEDF0014BD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Terror Saftey TipsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Noice.org.Terror-Saftey-TipsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Terror Saftey Tips.app/Terror Saftey Tips";
+			};
+			name = Debug;
+		};
+		84DAAC1821DDEEDF0014BD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Terror Saftey TipsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Noice.org.Terror-Saftey-TipsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Terror Saftey Tips.app/Terror Saftey Tips";
+			};
+			name = Release;
+		};
+		84DAAC1A21DDEEDF0014BD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Terror Saftey TipsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Noice.org.Terror-Saftey-TipsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Terror Saftey Tips";
+			};
+			name = Debug;
+		};
+		84DAAC1B21DDEEDF0014BD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Terror Saftey TipsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Noice.org.Terror-Saftey-TipsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Terror Saftey Tips";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DAABE621DDEED60014BD04 /* Build configuration list for PBXProject "Terror Saftey Tips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DAAC1121DDEEDF0014BD04 /* Debug */,
+				84DAAC1221DDEEDF0014BD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DAAC1321DDEEDF0014BD04 /* Build configuration list for PBXNativeTarget "Terror Saftey Tips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DAAC1421DDEEDF0014BD04 /* Debug */,
+				84DAAC1521DDEEDF0014BD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DAAC1621DDEEDF0014BD04 /* Build configuration list for PBXNativeTarget "Terror Saftey TipsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DAAC1721DDEEDF0014BD04 /* Debug */,
+				84DAAC1821DDEEDF0014BD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DAAC1921DDEEDF0014BD04 /* Build configuration list for PBXNativeTarget "Terror Saftey TipsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DAAC1A21DDEEDF0014BD04 /* Debug */,
+				84DAAC1B21DDEEDF0014BD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84DAABE321DDEED60014BD04 /* Project object */;
+}
